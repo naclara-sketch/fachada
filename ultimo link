@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faixada do Site</title>
+    <style>
+        body {
+            background-color: #001F3F; /* Azul marinho */
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 100px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .input-box {
+            width: 300px;
+            height: 50px;
+            background-color: white; /* Cor branca */
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            color: black; /* Texto em preto */
+        }
+        .button {
+            width: 100px; /* Botão pequeno */
+            height: 40px;
+            background-color: white; /* Cor branca */
+            border: none;
+            border-radius: 5px;
+            color: black; /* Texto em preto */
+            font-size: 14px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        .button:hover {
+            background-color: #e0e0e0; /* Cor ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Alura</h1>
+    <div class="container">
+        <input type="text" class="input-box" placeholder="email">
+        <input type="text" class="input-box" placeholder="senha">
+        <button class="button">Criar conta</button>
+        <button class="button">Entrar</button>
+    </div>
+</body>
+</html>
